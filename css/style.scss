@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500');
+
+$font-stack: 'Raleway', sans-serif;
+$primary-color: #000;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #444;
+    font-family: $font-stack;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+header {
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/earth.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 650px;
+    background-attachment: fixed;
+    h1 {
+        text-transform: uppercase;
+        font-size: 200%;
+        font-weight: 200;
+        letter-spacing: 2px;
+        padding-top: 20px;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        width: 600px;
+        margin-left: -150px;
+    }
+    nav {
+        position: absolute;
+        top: 34px;
+        margin-right: 15px;
+        text-align: center;
+        li {
+            display: inline-block;
+            margin-right: 25px;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                font-size: 80%;
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+}
+
+section {
+    padding: 105px 0px;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.group::after {
+    content: "";
+    display: table;
+    clear: both;
+}

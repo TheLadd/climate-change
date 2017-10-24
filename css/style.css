@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500");
+/* line 6, H:/Web Projects/climate-change/css/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* line 12, H:/Web Projects/climate-change/css/style.scss */
+html,
+body {
+  background-color: #fff;
+  color: #444;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden; }
+
+/* line 23, H:/Web Projects/climate-change/css/style.scss */
+header {
+  color: #fff;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/earth.jpg);
+  background-size: cover;
+  background-position: top;
+  height: 650px;
+  background-attachment: fixed; }
+  /* line 30, H:/Web Projects/climate-change/css/style.scss */
+  header h1 {
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 600px;
+    margin-left: -150px; }
+  /* line 42, H:/Web Projects/climate-change/css/style.scss */
+  header nav {
+    position: absolute;
+    top: 34px;
+    margin-right: 15px;
+    text-align: center; }
+    /* line 47, H:/Web Projects/climate-change/css/style.scss */
+    header nav li {
+      display: inline-block;
+      margin-right: 25px; }
+      /* line 50, H:/Web Projects/climate-change/css/style.scss */
+      header nav li:last-child {
+        margin-right: 0; }
+      /* line 53, H:/Web Projects/climate-change/css/style.scss */
+      header nav li a {
+        font-size: 80%;
+        text-decoration: none;
+        color: inherit; }
+
+/* line 62, H:/Web Projects/climate-change/css/style.scss */
+section {
+  padding: 105px 0px; }
+
+/* line 66, H:/Web Projects/climate-change/css/style.scss */
+.row {
+  max-width: 1140px;
+  margin: 0 auto; }
+
+/* line 71, H:/Web Projects/climate-change/css/style.scss */
+.group::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/*# sourceMappingURL=style.css.map */
