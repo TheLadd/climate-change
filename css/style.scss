@@ -90,12 +90,6 @@ section {
     width: 100%
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .float {
     float: left;
 }
@@ -162,7 +156,7 @@ body article.evidence {
     margin: 5%;
     align-content: center;
     width: 40%;
-    height: 470px;
+    height: 1000px;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
 }
@@ -184,4 +178,8 @@ body article.evidence p {
 .blue {
     background-color: #dae3e8;
     
+}
+
+article p.white,.blue {
+    padding-left:
 }
