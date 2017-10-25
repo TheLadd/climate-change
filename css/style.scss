@@ -73,3 +73,115 @@ section {
     display: table;
     clear: both;
 }
+
+/////////////////////////////////////////////////////////
+// OWENS STUFF
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0;
+    width: 100%
+}
+
+.cardimage {
+    width: 100%
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float {
+    float: left;
+}
+
+header {
+    background: #033f67;
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    display: inline-block;
+}
+
+header div {
+    display: inline-block;
+}
+
+header nav {
+    color: black;
+    text-decoration-style: none;
+    font-size: 30px;
+    display: inline-block;
+
+}
+
+header h1 {
+    display: inline-block;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    color: aqua;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header div.header h1 {
+    text-align: left;
+}
+
+.image {
+    max-width: 100%;
+    margin: 0;
+    background-image: url(./img/ice.jpg);
+    height: 200px;
+}
+
+.bulk {
+    background-color: #efefef;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+body article.evidence {
+    width: 33.33%;
+    background-color: #ffffff;
+    margin: 5%;
+    align-content: center;
+    width: 40%;
+    height: 470px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+body article.evidence h3 {
+    text-align: center;
+}
+
+body article.evidence p {
+    padding: 10px;
+}
+
+.white {
+    background-color: #ffffff;
+    padding: 20px;
+    
+}
+
+.blue {
+    background-color: #dae3e8;
+    
+}

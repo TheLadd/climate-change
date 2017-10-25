@@ -70,4 +70,110 @@ section {
   display: table;
   clear: both; }
 
+/* line 80, H:/Web Projects/climate-change/css/style.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 84, H:/Web Projects/climate-change/css/style.scss */
+.wrapper {
+  margin: 0;
+  width: 100%; }
+
+/* line 89, H:/Web Projects/climate-change/css/style.scss */
+.cardimage {
+  width: 100%; }
+
+/* line 93, H:/Web Projects/climate-change/css/style.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* line 99, H:/Web Projects/climate-change/css/style.scss */
+.float {
+  float: left; }
+
+/* line 103, H:/Web Projects/climate-change/css/style.scss */
+header {
+  background: #033f67;
+  width: 100%;
+  height: 200px;
+  padding: 50px;
+  display: inline-block; }
+
+/* line 111, H:/Web Projects/climate-change/css/style.scss */
+header div {
+  display: inline-block; }
+
+/* line 115, H:/Web Projects/climate-change/css/style.scss */
+header nav {
+  color: black;
+  text-decoration-style: none;
+  font-size: 30px;
+  display: inline-block; }
+
+/* line 123, H:/Web Projects/climate-change/css/style.scss */
+header h1 {
+  display: inline-block; }
+
+/* line 127, H:/Web Projects/climate-change/css/style.scss */
+header nav ul {
+  list-style-type: none; }
+
+/* line 131, H:/Web Projects/climate-change/css/style.scss */
+header nav ul li {
+  display: inline-block;
+  color: aqua;
+  text-decoration: none;
+  padding: 20px; }
+
+/* line 138, H:/Web Projects/climate-change/css/style.scss */
+header div.header h1 {
+  text-align: left; }
+
+/* line 142, H:/Web Projects/climate-change/css/style.scss */
+.image {
+  max-width: 100%;
+  margin: 0;
+  background-image: url(./img/ice.jpg);
+  height: 200px; }
+
+/* line 149, H:/Web Projects/climate-change/css/style.scss */
+.bulk {
+  background-color: #efefef;
+  width: 100%;
+  margin: 0; }
+
+/* line 155, H:/Web Projects/climate-change/css/style.scss */
+body {
+  margin: 0; }
+
+/* line 159, H:/Web Projects/climate-change/css/style.scss */
+body article.evidence {
+  width: 33.33%;
+  background-color: #ffffff;
+  margin: 5%;
+  align-content: center;
+  width: 40%;
+  height: 470px;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%; }
+
+/* line 170, H:/Web Projects/climate-change/css/style.scss */
+body article.evidence h3 {
+  text-align: center; }
+
+/* line 174, H:/Web Projects/climate-change/css/style.scss */
+body article.evidence p {
+  padding: 10px; }
+
+/* line 178, H:/Web Projects/climate-change/css/style.scss */
+.white {
+  background-color: #ffffff;
+  padding: 20px; }
+
+/* line 184, H:/Web Projects/climate-change/css/style.scss */
+.blue {
+  background-color: #dae3e8; }
+
 /*# sourceMappingURL=style.css.map */
