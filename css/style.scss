@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500');
 
-$font-stack: 'Raleway', sans-serif;
+$font-stack: 'Raleway',
+sans-serif;
 $primary-color: #000;
 
 * {
@@ -20,45 +21,6 @@ body {
     overflow-x: hidden;
 }
 
-header {
-    color: #fff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/earth.jpg);
-    background-size: cover;
-    background-position: top;
-    height: 650px;
-    background-attachment: fixed;
-    h1 {
-        text-transform: uppercase;
-        font-size: 200%;
-        font-weight: 200;
-        letter-spacing: 2px;
-        padding-top: 20px;
-        position: absolute;
-        top: 20px;
-        left: 50%;
-        width: 600px;
-        margin-left: -150px;
-    }
-    nav {
-        position: absolute;
-        top: 34px;
-        margin-right: 15px;
-        text-align: center;
-        li {
-            display: inline-block;
-            margin-right: 25px;
-            &:last-child {
-                margin-right: 0;
-            }
-            a {
-                font-size: 80%;
-                text-decoration: none;
-                color: inherit;
-            }
-        }
-    }
-}
-
 section {
     padding: 105px 0px;
 }
@@ -74,114 +36,166 @@ section {
     clear: both;
 }
 
-/////////////////////////////////////////////////////////
-// OWENS STUFF
-
-* {
-    box-sizing: border-box;
+/////////////////////////////////////////////////////////////////////////
+// Headings
+h1 {
+    text-transform: uppercase;
+    font-size: 350%;
+    font-weight: 200;
+    letter-spacing: 3px;
 }
 
-.wrapper {
-    margin: 0;
-    width: 100%
+h3 {
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
-.cardimage {
-    width: 100%
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.float {
-    float: left;
+p {
+    font-size: 16px;
+    line-height: 150%;
 }
 
 header {
-    background: #033f67;
-    width: 100%;
-    height: 200px;
-    padding: 50px;
-    display: inline-block;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/earth.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+    background-attachment: fixed;
+    h1 {
+        padding-top: 120px;
+        text-align: center;
+    }
+    nav {
+        padding-top: 50px;
+        text-align: center;
+        li {
+            display: inline-block;
+            margin-right: 50px;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                font-size: 90%;
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
 }
 
-header div {
-    display: inline-block;
-}
-
-header nav {
-    color: black;
-    text-decoration-style: none;
-    font-size: 30px;
-    display: inline-block;
-
-}
-
-header h1 {
-    display: inline-block;
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    color: aqua;
-    text-decoration: none;
-    padding: 20px;
-}
-
-header div.header h1 {
-    text-align: left;
-}
-
-.image {
-    max-width: 100%;
-    margin: 0;
-    background-image: url(./img/ice.jpg);
-    height: 200px;
-}
-
-.bulk {
+.section-intro {
     background-color: #efefef;
-    width: 100%;
-    margin: 0;
+    h3 {
+        margin-bottom: 30px;
+    }
 }
 
-body {
-    margin: 0;
-}
 
-body article.evidence {
-    width: 33.33%;
-    background-color: #ffffff;
-    margin: 5%;
-    align-content: center;
-    width: 40%;
-    height: 470px;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-}
-
-body article.evidence h3 {
-    text-align: center;
-}
-
-body article.evidence p {
-    padding: 10px;
-}
-
-.white {
-    background-color: #ffffff;
-    padding: 20px;
-    
-}
-
-.blue {
-    background-color: #dae3e8;
-    
-}
+///////////////////////////////////////////////////////////
+//// OWENS STUFF
+//
+//.wrapper {
+//    margin: 0;
+//    width: 100%
+//}
+//
+//.cardimage {
+//    width: 100%
+//}
+//
+//.clearfix:after {
+//    content: "";
+//    display: table;
+//    clear: both;
+//}
+//
+//.float {
+//    float: left;
+//}
+//
+//header {
+//    background: #033f67;
+//    width: 100%;
+//    height: 200px;
+//    padding: 50px;
+//    display: inline-block;
+//}
+//
+//header div {
+//    display: inline-block;
+//}
+//
+//header nav {
+//    color: black;
+//    text-decoration-style: none;
+//    font-size: 30px;
+//    display: inline-block;
+//
+//}
+//
+//header h1 {
+//    display: inline-block;
+//}
+//
+//header nav ul {
+//    list-style-type: none;
+//}
+//
+//header nav ul li {
+//    display: inline-block;
+//    color: aqua;
+//    text-decoration: none;
+//    padding: 20px;
+//}
+//
+//header div.header h1 {
+//    text-align: left;
+//}
+//
+//.image {
+//    max-width: 100%;
+//    margin: 0;
+//    background-image: url(./img/ice.jpg);
+//    height: 200px;
+//}
+//
+//.bulk {
+//    background-color: #efefef;
+//    width: 100%;
+//    margin: 0;
+//}
+//
+//body {
+//    margin: 0;
+//}
+//
+//body article.evidence {
+//    width: 33.33%;
+//    background-color: #ffffff;
+//    margin: 5%;
+//    align-content: center;
+//    width: 40%;
+//    height: 470px;
+//    border-bottom-left-radius: 10%;
+//    border-bottom-right-radius: 10%;
+//}
+//
+//body article.evidence h3 {
+//    text-align: center;
+//}
+//
+//body article.evidence p {
+//    padding: 10px;
+//}
+//
+//.white {
+//    background-color: #ffffff;
+//    padding: 20px;
+//    
+//}
+//
+//.blue {
+//    background-color: #dae3e8;
+//    
+//}
