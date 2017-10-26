@@ -166,26 +166,28 @@ p {
 .header-evidence,
 .header-causes {
     background: #033f67;
-    width: 100%;
     height: 200px;
     padding: 50px;
-    display: inline-block;
 }
 
 /* ----------- Evidence Page ----------- */
 
-.header-evidence div {
+.header-evidence div,
+.header-causes div{
     display: inline-block;
+    color: black;
 }
 
-.header-evidence nav {
+.header-evidence nav,
+.header-causes nav{
     color: black;
     text-decoration-style: none;
     font-size: 30px;
     display: inline-block;
 }
 
-.header-evidence h1 {
+.header-evidence h1,
+header-casues h1{
     display: inline-block;
 }
 
@@ -193,26 +195,37 @@ p {
     list-style-type: none;
 }
 
-.header-evidence nav ul li {
+.header-evidence nav ul li,
+.header-causes nav ul li{
     display: inline-block;
     color: aqua;
     text-decoration: none;
     padding: 20px;
 }
 
-.bulk {
-    background-color: #efefef;
-    width: 100%;
-    margin: 0;
+.evidence-top-image {
+    background-image: url(../img/ice.jpg);
+    background-size: cover;
+    height: 300px;
 }
 
-.evidence {
-    width: 33.33%;
-    background-color: #ffffff;
-    margin: 5%;
+.bulk {
+    background-color: #efefef;
+    margin: 0;
     align-content: center;
-    width: 40%;
-    height: 550px;
+    padding-top: 2%
+}
+
+
+.evidence {
+    background-color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    align-content: center;
+    width: 30%;
+    height: 700px;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
 }
@@ -239,15 +252,20 @@ p {
     padding-bottom: 40px;
 }
 
-article.causes-intro p,
-article.causes-ghg p {
+.causes-intro article h3,
+.causes-
+
+
+.causes-intro article p,
+.causes-ghg p {
     padding-left: 20px
 }
 
-.imageholder {
+.causes-bottom-image {
     background-image: url(../img/oil3.jpg);
     background-size: cover;
-    height: 500px;
+    height: 400px;
+    margin: 0;
 }
 
 /* --------------- Footer --------------- */
