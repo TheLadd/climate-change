@@ -4,6 +4,8 @@
 font = "Raleway", sans-serif
 */
 
+/* --------------- RESET --------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +27,7 @@ section {
     padding: 105px 0px;
 }
 
-/* Reusable */
+/* -------------- REUSABLE --------------- */
 
 .row {
     max-width: 1140px;
@@ -42,7 +44,7 @@ section {
     float: left;
 }
 
-/* Headings */
+/* -------------- HEADINGS --------------- */
 
 h1 {
     text-transform: uppercase;
@@ -56,14 +58,16 @@ h3 {
     font-weight: 400;
 }
 
-/* Paragraphs */
+/* -------------- PARAGRAPHS ------------- */
 
 p {
     font-size: 16px;
     line-height: 150%;
 }
 
-/* Main Page */
+/* -------------- Main Page -------------- */
+
+/* Header */
 
 .header-mainpage {
     color: #fff;
@@ -78,6 +82,8 @@ p {
     padding-top: 120px;
     text-align: center;
 }
+
+/* Main Navigation */
 
 .header-mainpage .main-nav {
     padding-top: 50px;
@@ -99,9 +105,11 @@ p {
     color: inherit;
 }
 
+/* Intro Section */ 
 
 
-/* OWEN */
+
+/* --------------- OWEN --------------- */
 
 .cardimage {
     width: 100%;
@@ -118,7 +126,7 @@ p {
     padding: 50px;
 }
 
-/* Evidence Page */
+/* ----------- Evidence Page ----------- */
 
 .header-evidence div,
 .header-causes div{
@@ -186,7 +194,7 @@ header-casues h1{
     padding: 10px;
 }
 
-/* Causes Page */
+/* ------------- Causes Page ------------- */
 
 .causes-intro {
     background-color: #ffffff;
@@ -216,7 +224,7 @@ header-casues h1{
     margin: 0;
 }
 
-/* Footer */
+/* --------------- Footer --------------- */
 
 footer {
     background-color: #efefef;
