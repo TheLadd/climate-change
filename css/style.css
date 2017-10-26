@@ -34,14 +34,40 @@ section {
     margin: 0 auto;
 }
 
-.group::after {
+.float {
+    float: left;
+}
+
+/* Grouping */
+
+.group:after,
+.group:before {
     content: "";
     display: table;
+}
+
+.group:after {
     clear: both;
 }
 
-.float {
-    float: left;
+/* Grid */
+
+.span-1-of-3 {
+    width: 32.2%;
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { 
+    margin-left: 0; 
+}
+
+.section {
+	clear: both;
 }
 
 /* -------------- HEADINGS --------------- */
@@ -107,6 +133,24 @@ p {
 
 /* Intro Section */ 
 
+.section-intro {
+    background-color: #efefef;
+}
+
+.section-intro h3 {
+    margin-bottom: 14px;
+}
+
+/* News Cards */
+
+.news-card {
+    background-color: #efefef;
+    height: 500px;
+}
+
+.news-card img {
+    width: 100%;
+}
 
 
 /* --------------- OWEN --------------- */
