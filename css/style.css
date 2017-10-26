@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500");
 
+/*
+font = "Raleway", sans-serif
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +25,7 @@ section {
     padding: 105px 0px;
 }
 
-/* Reusuables */
+/* Reusable */
 
 .row {
     max-width: 1140px;
@@ -61,7 +65,7 @@ p {
 
 /* Main Page */
 
-header {
+.header-mainpage {
     color: #fff;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/earth.jpg);
     background-size: cover;
@@ -70,26 +74,26 @@ header {
     background-attachment: fixed;
 }
 
-header h1 {
+.header-mainpage h1 {
     padding-top: 120px;
     text-align: center;
 }
 
-header nav {
+.header-mainpage .main-nav {
     padding-top: 50px;
     text-align: center;
 }
 
-header nav li {
+.header-mainpage .main-nav li {
     display: inline-block;
     margin-right: 50px;
 }
 
-header nav li:last-child {
+.header-mainpage .main-nav li:last-child {
     margin-right: 0;
 }
 
-header nav li a {
+.header-mainpage .main-nav li a {
     font-size: 90%;
     text-decoration: none;
     color: inherit;
