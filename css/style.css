@@ -306,7 +306,7 @@ header-causes h1,
 }
 
 .causes-ghg {
-    background-color: #dae3e8;
+    background-color: #efefef;
     padding: 20px;
     padding-bottom: 40px;
 }
@@ -339,9 +339,13 @@ header-causes h1,
     
 }
 
-.solutions-intro div p {
-    padding-left: 40px;
+.solutions-section {
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
+.worldhand
 
 
 /* --------------- Footer --------------- */
