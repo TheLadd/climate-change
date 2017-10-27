@@ -144,14 +144,54 @@ p {
 /* News Cards */
 
 .news-card {
+    position: relative;
+    height: 485px;
+    width: 28%;
+    margin: 1% 0 1% 8%;
+    border-radius: 15px;
     background-color: #efefef;
-    height: 500px;
+    box-shadow: 0px 3px 20px -3px #a1a1a1;
+}
+
+.news-card:last-child {
+    margin-right: 0;
 }
 
 .news-card img {
     width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
+.news-card h4 {
+    padding: 20px 20px 0 20px;
+    font-weight: 500;
+}
+
+.news-card p {
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.news-card .btn {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 80%;
+    color: #fff;
+    background-color: #3498db;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: background-color 0.3s;
+}
+
+.news-card .btn:hover,
+.news-card .btn:active {
+    background-color: #51a7e0;
+}
 
 /* --------------- OWEN --------------- */
 
