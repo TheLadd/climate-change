@@ -2,6 +2,7 @@
 
 /*
 font = "Raleway", sans-serif
+blue color = #3498db
 */
 
 /* --------------- RESET --------------- */
@@ -114,6 +115,11 @@ p {
     text-align: center;
 }
 
+.header-mainpage h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Main Navigation */
 
 .header-mainpage .main-nav {
@@ -142,8 +148,8 @@ p {
     background-color: #efefef;
 }
 
-.section-intro h3 {
-    margin-bottom: 14px;
+.section-intro p {
+    padding: 0 15%;
 }
 
 /* News Cards */
@@ -155,7 +161,7 @@ p {
     margin: 1% 0 1% 8%;
     border-radius: 15px;
     background-color: #efefef;
-    box-shadow: 0px 3px 20px -3px #a1a1a1;
+    box-shadow: 0px 3px 15px -3px #a1a1a1;
 }
 
 .news-card:last-child {
@@ -341,9 +347,47 @@ header-causes h1,
 /* --------------- Footer --------------- */
 
 footer {
-    background-color: #efefef;
-    text-align: center;
-    height: 10vh;
-    padding: 35px;
-    margin: 0;
+    height: 80px;
+    background-color: #444;
+}
+
+footer .row {
+    position: relative;
+}
+
+.footer-nav {
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 27px;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.footer-nav li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a {
+    font-size: 70%;
+    text-decoration: none;
+    color: #aaa;
+    font-weight: 00;
+    transition: color 0.3s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ccc;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 65%;
+    position: absolute;
+    right: 0;
+    top: 30.5px;
 }
