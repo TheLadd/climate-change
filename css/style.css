@@ -5,6 +5,7 @@ font = "Raleway", sans-serif
 blue color = #3498db
 */
 
+
 /* --------------- RESET --------------- */
 
 * {
@@ -28,6 +29,7 @@ section {
     padding: 105px 0px;
 }
 
+
 /* -------------- REUSABLE --------------- */
 
 .row {
@@ -44,6 +46,7 @@ section {
     padding-bottom: 100px;
 }
 
+
 /* Grouping */
 
 .group:after,
@@ -56,6 +59,7 @@ section {
     clear: both;
 }
 
+
 /* Grid */
 
 .span-1-of-3 {
@@ -63,18 +67,19 @@ section {
 }
 
 .col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
 }
 
-.col:first-child { 
-    margin-left: 0; 
+.col:first-child {
+    margin-left: 0;
 }
 
 .section {
-	clear: both;
+    clear: both;
 }
+
 
 /* -------------- HEADINGS --------------- */
 
@@ -90,6 +95,7 @@ h3 {
     font-weight: 400;
 }
 
+
 /* -------------- PARAGRAPHS ------------- */
 
 p {
@@ -97,7 +103,9 @@ p {
     line-height: 150%;
 }
 
+
 /* -------------- Main Page -------------- */
+
 
 /* Header */
 
@@ -119,6 +127,7 @@ p {
     text-decoration: none;
     color: inherit;
 }
+
 
 /* Main Navigation */
 
@@ -142,7 +151,8 @@ p {
     color: inherit;
 }
 
-/* Intro Section */ 
+
+/* Intro Section */
 
 .section-intro {
     background-color: #efefef;
@@ -151,6 +161,7 @@ p {
 .section-intro p {
     padding: 0 15%;
 }
+
 
 /* News Cards */
 
@@ -204,6 +215,7 @@ p {
     background-color: #51a7e0;
 }
 
+
 /* --------------- OWEN --------------- */
 
 .cardimage {
@@ -214,11 +226,12 @@ p {
     float: left;
 }
 
+
 /* ----------- Headers ----------- */
 
 .header-evidence,
 .header-causes,
-.header-solutions{
+.header-solutions {
     background: #033f67;
     height: 200px;
     padding: 50px;
@@ -253,14 +266,16 @@ p {
 
 .header-evidence nav ul li,
 .header-causes nav ul li,
-.header-solutions nav ul li{
+.header-solutions nav ul li {
     display: inline-block;
     color: aqua;
     text-decoration: none;
     padding: 20px;
 }
 
+
 /* --------------- Evidence Page ------------ */
+
 .evidence-top-image {
     background-image: url(../img/ice.jpg);
     background-size: cover;
@@ -273,7 +288,6 @@ p {
     align-content: center;
     padding-top: 2%;
 }
-
 
 .evidence {
     background-color: #ffffff;
@@ -296,6 +310,7 @@ p {
 .evidence p {
     padding: 20px;
 }
+
 
 /* ------------- Causes Page ------------- */
 
@@ -323,13 +338,13 @@ p {
     margin: 0;
 }
 
+
 /* --------------- Solutions Page -----------*/
 
 .solutions-intro {
-    background: #efefef; 
+    background: #efefef;
     padding-top: 100px;
     padding-bottom: 100px;
-    
 }
 
 .solutions-section {
@@ -337,6 +352,7 @@ p {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 
 /* --------------- Footer --------------- */
 
@@ -385,3 +401,30 @@ footer p {
     right: 0;
     top: 30.5px;
 }
+
+
+/* --------------- Animations --------------- */
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+.js--wp-1 {
+    opacity: 0;
+}
+
+/* --------------- Media Queries --------------- */
