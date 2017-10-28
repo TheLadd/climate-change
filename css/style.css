@@ -241,7 +241,7 @@ p {
 }
 
 .header-evidence h1,
-header-causes h1,
+.header-causes h1,
 .header-solutions h1 {
     display: inline-block;
 }
@@ -310,9 +310,6 @@ header-causes h1,
     padding: 20px;
     padding-bottom: 40px;
 }
-.causes-intro article h3,
-.causes-
-
 
 .causes-intro article p,
 .causes-ghg p {
@@ -328,10 +325,6 @@ header-causes h1,
 
 /* --------------- Solutions Page -----------*/
 
-.solutions-top-image {
-    
-}
-
 .solutions-intro {
     background: #efefef; 
     padding-top: 100px;
@@ -344,9 +337,6 @@ header-causes h1,
     padding-top: 100px;
     padding-bottom: 100px;
 }
-
-.worldhand
-
 
 /* --------------- Footer --------------- */
 
