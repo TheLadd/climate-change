@@ -22,7 +22,9 @@ body {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    padding: 0;
 }
+
 
 section {
     padding: 105px 0px;
@@ -345,7 +347,12 @@ header-causes h1,
     padding-bottom: 100px;
 }
 
-.worldhand
+.worldhand {
+    background-image: url(.img/worldhand.jpg);
+    background-size: cover;
+    height: 300px;
+    
+}
 
 
 /* --------------- Footer --------------- */
