@@ -411,7 +411,7 @@ p {
 /*<<<<<<< HEAD*/
 
 .worldhand {
-    background-image: url(/img/worldhand.jpg);
+    background-image: url(../img/worldhand.jpg);
     background-size: cover;
     height: 650px;
 
