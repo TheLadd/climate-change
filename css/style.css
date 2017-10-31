@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500");
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700");
 
 /*
 font = "Raleway", sans-serif
@@ -215,6 +215,60 @@ p {
     background-color: #51a7e0;
 }
 
+/* -------------- Evidence Page -------------- */
+
+.effects-img img {
+    width: 33.33%;
+    float: left;
+}
+
+.effects-container {
+    float: left;
+    width: 33.33%;
+    padding-top: 33.33%;
+    position: relative;
+}
+
+#ice-img,
+#sunset-img,
+#water-img,
+#blossoms-img,
+#drought-img {
+    background-position: center;
+    background-size: 100%;
+}
+
+#ice-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/ice.jpg);
+}
+
+#sunset-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/sunset-ocean.jpg);
+}
+
+#water-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/water-droplets-on-leaf.jpg);
+}
+
+#blossoms-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/blossoms.jpg);
+}
+
+#drought-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/drought.jpg);
+}
+
+#wildfire-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/wildfire.jpg);
+}
+
+.effects-container p {
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    top: 48%;
+    padding: 0 15%;
+}
 
 /* --------------- OWEN --------------- */
 
