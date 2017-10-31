@@ -273,6 +273,7 @@ p {
 /* --------------- OWEN --------------- */
 
 .cardimage {
+    height: 50%;
     width: 100%;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
@@ -376,13 +377,11 @@ p {
 
 .causes-intro {
     background-color: #ffffff;
-    padding: 20px;
     padding-bottom: 40px;
 }
 
 .causes-ghg {
     background-color: #efefef;
-    padding: 20px;
     padding-bottom: 40px;
 }
 
@@ -512,7 +511,7 @@ footer p {
     /* Evidence Page */
     .evidence-intro {
         padding-left: 10%;
-        padding-right: 10%
+        padding-right: 10%;
     }
 
 
@@ -646,17 +645,17 @@ footer p {
     }
 
     .evidence {
-        height: 515px;
+        height: 570px;
         width: 80%;
         margin-left: 13%;
         margin-right: 13%;
         margin-top: 5%;
         margin-bottom: 5%;
-        border-radius: 30px; 
+        border-radius: 30px;
     }
 
     .graph {
-        width: 75%;
+        width: 80%;
         margin-left: 13%;
         margin-right: 13%;
         margin-top: 5%;
@@ -667,21 +666,28 @@ footer p {
     .graphimage {
         border-radius: 30px;
     }
-    
-    /* Causes Page */ 
+
+    /* Causes Page */
     
     .causes-bottom-image {
-    height: 100px
+        height: 100px
     }
     
-    .solutions-intro div, .solutions-section div {
-        padding-left: 10%; 
+    .causes-intro, .causes-ghg {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* Solutions Page */
+    
+    .solutions-intro div,
+    .solutions-section div {
+        padding-left: 10%;
         padding-right: 10%;
     }
-    
+
     .worldhand {
         height: 155px;
     }
-    
-}
 
+}
